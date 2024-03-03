@@ -1,0 +1,26 @@
+footer {
+  background-color: #2d343c;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 50px;
+  color: #fff;
+}
+
+footer .footer_text li {
+  padding: 7px;
+}
+
+footer .footer_text p {
+  padding: 7px;
+}
+
+footer .footer_iconka i {
+  padding-right: 15px;
+}
+/*# sourceMappingURL=footer.css.map */

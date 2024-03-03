@@ -1,0 +1,106 @@
+@import url(./navbar/navbar.css);
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 1)), url(../imges/header_bgimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.header_box_3 {
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    gap: 120px;
+
+    .header_box_3_1 {
+        display: flex;
+        gap: 10px;
+        color: white;
+    }
+
+    .header_box_3_2 {
+        display: flex;
+        gap: 10px;
+        color: white;
+    }
+}
+
+.header_box_2 {
+    position: absolute;
+    top: 65%;
+    left: 49%;
+    transform: translate(-51%, -35%);
+}
+
+.header_box_1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+
+    h2 {
+        max-width: 500px;
+        font-size: 40px;
+        line-height: 64px;
+        text-align: center;
+        color: rgba(212, 193, 127, 1);
+
+    }
+}
+@media (max-width: 870px)  {
+    .header_box_1 {
+        padding-top: -50%;
+        h2 {
+            max-width: 400px;
+            font-size: 30px;
+            line-height: 44px;
+
+        }
+    }
+}
+@media (max-width: 990px)  {
+    .header_box_3 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+@media (max-width: 441px)  {
+    .header_box_3 {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 335px)  {
+    .header_box_3 {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        font-size: 8px;
+    }
+}
+@media (max-width: 500px)  {
+    .header_box_1 {
+        // padding-top: 30%;
+        h2 {
+            max-width: 300px;
+            font-size: 20px;
+            line-height: 30px;
+
+        }
+    }
+}
+@media (max-width: 473px)  {
+    .header_box_2 {
+        padding-top: -70%;
+    }
+}
